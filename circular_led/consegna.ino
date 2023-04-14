@@ -5,6 +5,10 @@
 //  march 2023
 //
 
+// 2 library needed:
+//  - FastLED.h: https://github.com/FastLED/FastLED
+//  - MultiMap.h: https://github.com/RobTillaart/MultiMap
+
 #define FASTLED_ALLOW_INTERRUPTS 0
 #include <FastLED.h>
 FASTLED_USING_NAMESPACE
