@@ -1,3 +1,10 @@
+//
+//  "Circular Led Animations"
+//  Create by Paolo Cavagnolo for SGH
+//  paolo.cavagnolo@gmail.com
+//  march 2023
+//
+
 #define FASTLED_ALLOW_INTERRUPTS 0
 #include <FastLED.h>
 FASTLED_USING_NAMESPACE
