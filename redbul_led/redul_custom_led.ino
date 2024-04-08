@@ -8,15 +8,15 @@ FASTLED_USING_NAMESPACE
 
 CRGB leds[NUM_LEDS];
 
-CRGB RED_custom = CRGB(255, 15, 60);       // 210,   0,  60
-CRGB BLUE_custom = CRGB(45, 30, 255);    // 15,    0,  105
+CRGB RED_custom = CRGB(255, 0, 0);       // 210,   0,  60
+CRGB BLUE_custom = CRGB(15, 0, 255);    // 15,    0,  105
 CRGB YELLOW_custom = CRGB(255, 204, 0);     // 255, 204,  0
 
 void setup() {
   // put your setup code here, to run once:
   delay(3000);
-  FastLED.addLeds<LED_TYPE, 2, COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
-  FastLED.addLeds<LED_TYPE, 4, COLOR_ORDER>(leds, NUM_LEDS).setCorrection(TypicalLEDStrip);
+  FastLED.addLeds<LED_TYPE, 2, COLOR_ORDER>(leds, NUM_LEDS);//.setCorrection(TypicalLEDStrip);
+  FastLED.addLeds<LED_TYPE, 4, COLOR_ORDER>(leds, NUM_LEDS);//.setCorrection(TypicalLEDStrip);
 
   FastLED.setBrightness(255);
 
